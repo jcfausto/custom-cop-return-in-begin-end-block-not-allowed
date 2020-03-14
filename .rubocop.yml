@@ -1,0 +1,2 @@
+require:
+- ./rubocop_no_return_in_begin_end_blocks.rb
