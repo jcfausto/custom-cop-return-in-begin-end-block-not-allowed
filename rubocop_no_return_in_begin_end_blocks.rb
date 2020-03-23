@@ -5,7 +5,7 @@ module RuboCop
     module CustomCops
       # This cop checks for *return* inside an *begin..end* block.
       # Avoid using *return* inside a begin..end block as the return will
-      # take prececende over any assignment intened by the result of the
+      # take prececende over any assignment intended by the result of the
       # begin..end block
       #
       # @example
