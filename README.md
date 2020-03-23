@@ -17,3 +17,12 @@ ruby-parse foo.rb
 ```bash
 ruby testcase.rb
 ```
+
+## How to use it
+Require it in your Rubocop.yaml file like this:
+
+```yaml
+# Custom cops
+require:
+- ./rubocop/return_in_begin_end_blocks_not_allowed.rb
+```
