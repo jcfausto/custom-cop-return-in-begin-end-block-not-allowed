@@ -30,7 +30,7 @@ module RuboCop
       #     end
       #   end
       class ReturnInBeginEndBlockNotAllowed < Cop
-        MSG = 'Do not return from `begin..end` block'
+        MSG = 'Do not return from "begin..end" block'
 
         def on_lvasgn(node)
           node.each_node(:return) do |return_code|
